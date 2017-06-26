@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mladen.xwsclient.activity.AllArticles">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarId"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/button_text_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Vrste proizvoda"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:src="@drawable/back_icon"
+            android:tint="@color/white"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/relative_1"
+        android:layout_below="@id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/article1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/beka_tehnika1"/>
+
+        <ImageView
+            android:id="@+id/article2MU"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/it_shop"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_2"
+        android:layout_below="@id/relative_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/article3ku"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/kamere"/>
+
+        <ImageView
+            android:id="@+id/article4tv"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/tv_oprema"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_3"
+        android:layout_below="@id/relative_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/article5"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/kucni_aparati"/>
+
+        <ImageView
+            android:id="@+id/article6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/toplotni_rashl_uredjaji"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/relative_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/article5do"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/dodatna_oprema"/>
+
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

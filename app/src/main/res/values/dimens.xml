@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bela_margin_left">20dp</dimen>
+    <dimen name="bela_margin_top">20dp</dimen>
+    <dimen name="bela_padding">35dp</dimen>
+    <dimen name="margin_left_right_edit">40dp</dimen>
+    <dimen name="padding_back_button">18dp</dimen>
+    <dimen name="width_article">155dp</dimen>
+    <dimen name="height_article">155dp</dimen>
+    <dimen name="margin_top_article">15dp</dimen>
+
+</resources>

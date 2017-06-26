@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.mladen.xwsclient">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".dagger.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.AllArticles"/>
+        <activity android:name=".activity.article1.Article1"/>
+        <activity android:name=".activity.article2_it.Article2IT"/>
+        <activity android:name=".activity.Article3Foto"/>
+        <activity android:name=".activity.Article4TV"/>
+        <activity android:name=".activity.Article7DO"/>
+        <activity android:name=".activity.article1.ActivityVesMasina"/>
+        <activity android:name=".activity.article1.ActivityVMasina1"/>
+        <activity android:name=".activity.Article5KUA"/>
+        <activity android:name=".activity.Article6TR"/>
+        <activity android:name=".activity.article1.ActivityVMasina2"/>
+        <activity android:name=".activity.article1.ActivityVMasina3"/>
+        <activity android:name=".activity.article1.ActivityVMasina4"/>
+        <activity android:name=".activity.article1.ActivityFrizider"/>
+        <activity android:name=".activity.article1.ActivityFrizider1"/>
+        <activity android:name=".activity.article1.ActivityFrizider2"/>
+        <activity android:name=".activity.article1.ActivityFrizider3"/>
+        <activity android:name=".activity.article1.ActivitySporet"/>
+        <activity android:name=".activity.article1.ActivitySporet1"/>
+        <activity android:name=".activity.article1.ActivitySporet2"/>
+        <activity android:name=".activity.article1.ActivitySporet3"/>
+        <activity android:name=".activity.article1.ActivityZamrzivac"/>
+        <activity android:name=".activity.article1.ActivityZamrzivac1"/>
+        <activity android:name=".activity.article1.ActivityZamrzivac2"/>
+        <activity android:name=".activity.article1.ActivityZamrzivac3"/>
+        <activity android:name=".activity.article2_it.ActivityLaptop1"/>
+        <activity android:name=".activity.article2_it.ActivityLaptop2"/>
+        <activity android:name=".activity.article2_it.ActivityLaptop3"/>
+        <activity android:name=".activity.article2_it.ActivityLaptop"/>
+        <activity android:name=".activity.article2_it.ActivityMobilni"/>
+        <activity android:name=".activity.article2_it.ActivityMobilni1"/>
+        <activity android:name=".activity.article2_it.ActivityMobilni2"/>
+        <activity android:name=".activity.article2_it.ActivityMobilni3"/>
+        <activity android:name=".activity.article2_it.ActivityMobilni4"/>
+        <activity android:name=".activity.article2_it.ActivityTablet"/>
+        <activity android:name=".activity.article2_it.ActivityTablet1"/>
+        <activity android:name=".activity.article2_it.ActivityTablet2"/>
+        <activity android:name=".activity.article3_foto.ActivityKamere"/>
+        <activity android:name=".activity.article3_foto.Kamera1"/>
+        <activity android:name=".activity.article3_foto.Kamera2"/>
+        <activity android:name=".activity.article3_foto.Kamera3"/>
+        <activity android:name=".activity.article3_foto.ActivityFotoaparati"/>
+        <activity android:name=".activity.article3_foto.Fotoaparat1"/>
+        <activity android:name=".activity.article3_foto.Fotoaparat2"/>
+        <activity android:name=".activity.article3_foto.Fotoaparat3"/>
+        <activity android:name=".activity.article4_tv.ActivityTV"/>
+        <activity android:name=".activity.article4_tv.TV1"/>
+        <activity android:name=".activity.article4_tv.TV2"/>
+        <activity android:name=".activity.article4_tv.TV3"/>
+        <activity android:name=".activity.article4_tv.ActivityDO"/>
+        <activity android:name=".activity.article4_tv.DO1"/>
+        <activity android:name=".activity.article4_tv.DO2"/>
+        <activity android:name=".activity.article4_tv.DO3"/>
+        <activity android:name=".activity.article5_kua.ActivityUS"/>
+        <activity android:name=".activity.article5_kua.US1"/>
+        <activity android:name=".activity.article5_kua.US2"/>
+        <activity android:name=".activity.article5_kua.Pegla1"/>
+        <activity android:name=".activity.article5_kua.ActivityPG"/>
+        <activity android:name=".activity.article5_kua.Pegla2"/>
+        <activity android:name=".activity.article5_kua.ActivityLAM"/>
+        <activity android:name=".activity.article5_kua.Lampa1"/>
+        <activity android:name=".activity.article5_kua.Lampa2"/>
+        <activity android:name=".activity.article6_tr.ActivityGR"/>
+        <activity android:name=".activity.article6_tr.Grejalica1"/>
+        <activity android:name=".activity.article6_tr.Grejalica2"/>
+        <activity android:name=".activity.article6_tr.Grejalica3"/>
+        <activity android:name=".activity.article6_tr.ActivityKL"/>
+        <activity android:name=".activity.article6_tr.Klima1"/>
+        <activity android:name=".activity.article6_tr.Klima2"/>
+        <activity android:name=".activity.article6_tr.Klima3"/>
+        <activity android:name=".activity.article7_do.ActivitySL"/>
+        <activity android:name=".activity.article7_do.Slusalice1"/>
+        <activity android:name=".activity.article7_do.Slusalice2"/>
+        <activity android:name=".activity.article7_do.ActivityUSB"/>
+        <activity android:name=".activity.article7_do.USB1"/>
+        <activity android:name=".activity.article7_do.USB2"/>
+        <activity android:name=".activity.article7_do.ActivityRS"/>
+        <activity android:name=".activity.article7_do.Sat1"/>
+        <activity android:name=".activity.article7_do.Sat2"/>
+        <activity android:name=".activity.article7_do.ActivityST"/>
+        <activity android:name=".activity.article7_do.Stampac1"/>
+        <activity android:name=".activity.article7_do.Stampac2"/>
+        <activity android:name=".activity.HomeScreen"/>
+        <activity android:name=".activity.SpisakOdabranihProizvoda"/>
+        <activity android:name=".activity.UplatnicaActivity"/>
+        <activity android:name=".activity.DobaviIzvod">
+        </activity>
+    </application>
+
+</manifest>

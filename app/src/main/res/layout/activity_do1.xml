@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context="com.example.mladen.xwsclient.activity.article4_tv.DO1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/button_text_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Detalji o proizvodu"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:src="@drawable/back_icon"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/zavrsi_kupovinu"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/gotovo"
+            android:paddingRight="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:text="Naziv proizvoda: Kabel"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:text="cena: 1 000 din" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:text="Kolicina:"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/kolicina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:hint="unisite kolicinu" />
+
+        <Button
+            android:id="@+id/nova_cena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nova cena"
+            android:layout_marginLeft="20dp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:text="Ukupna cena: "/>
+
+    <TextView
+        android:id="@+id/ukupna_cena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:text="1 000 din"/>
+
+    <Button
+        android:id="@+id/dobavi_izvod"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:text="Dodaj u korpu"
+        android:background="@color/button_text_color"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/margin_left_right_edit"
+        android:layout_marginRight="@dimen/margin_left_right_edit"/>
+
+</LinearLayout>

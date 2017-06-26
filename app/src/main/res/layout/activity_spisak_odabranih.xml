@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mladen.xwsclient.activity.SpisakOdabranihProizvoda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Spisak odabranih proizvoda:"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tekst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tekst2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/ukupno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nastavi_kuovinu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="Nastavi sa kupovinom"
+            android:background="@color/button_text_color"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="@dimen/margin_left_right_edit"
+            android:layout_marginRight="@dimen/margin_left_right_edit"
+            android:layout_marginBottom="80dp"/>
+
+    </LinearLayout>
+</ScrollView>

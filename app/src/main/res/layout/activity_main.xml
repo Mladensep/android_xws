@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mladen.xwsclient.activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uplatnica:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/addFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prva stavka"/>
+
+    <EditText
+        android:id="@+id/addSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="druga stavka"/>
+
+    <EditText
+        android:id="@+id/addThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="druga stavka"/>
+
+<Button
+    android:id="@+id/buttonSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="potvrdi"/>
+
+</LinearLayout>
