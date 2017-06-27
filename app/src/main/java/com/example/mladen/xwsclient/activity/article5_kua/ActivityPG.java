@@ -32,4 +32,9 @@ public class ActivityPG extends AppCompatActivity {
         Intent intent = new Intent(this, Pegla2.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

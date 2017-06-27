@@ -28,6 +28,7 @@ public class SpisakOdabranihProizvoda extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_spisak_odabranih);
 
         ((App) getApplication()).getComponent().inject(this);

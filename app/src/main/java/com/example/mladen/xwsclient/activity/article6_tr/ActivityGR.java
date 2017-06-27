@@ -37,4 +37,9 @@ public class ActivityGR extends AppCompatActivity {
         Intent intent = new Intent(this, Grejalica3.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

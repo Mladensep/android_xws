@@ -31,4 +31,9 @@ public class ActivityTablet extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityTablet2.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

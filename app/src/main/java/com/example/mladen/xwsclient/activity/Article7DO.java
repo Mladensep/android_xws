@@ -48,4 +48,9 @@ public class Article7DO extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityST.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

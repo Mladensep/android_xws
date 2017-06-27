@@ -34,4 +34,8 @@ public class ActivitySL extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

@@ -14,6 +14,7 @@ public class HomeScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_home_screen);
 
         ButterKnife.bind(this);
@@ -29,5 +30,10 @@ public class HomeScreen extends AppCompatActivity {
     public void dobavi() {
         Intent intent = new Intent(this, DobaviIzvod.class);
         startActivity(intent);
+    }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
     }
 }

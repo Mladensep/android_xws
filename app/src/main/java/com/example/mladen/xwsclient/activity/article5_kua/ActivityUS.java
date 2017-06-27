@@ -33,4 +33,9 @@ public class ActivityUS extends AppCompatActivity {
         Intent intent = new Intent(this, US2.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

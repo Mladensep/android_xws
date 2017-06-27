@@ -34,4 +34,9 @@ public class Article3Foto extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityFotoaparati.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

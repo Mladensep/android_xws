@@ -8,6 +8,32 @@
     android:layout_height="match_parent"
     tools:context="com.example.mladen.xwsclient.activity.DobaviIzvod">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/button_text_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Dobavljeni izvodi"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:src="@drawable/back_icon"
+            android:tint="@color/white"/>
+
+    </android.support.v7.widget.Toolbar>
+
     <ListView
         android:id="@+id/list_id"
         android:layout_width="match_parent"

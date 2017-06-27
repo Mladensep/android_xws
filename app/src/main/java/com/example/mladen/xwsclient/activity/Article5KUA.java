@@ -42,4 +42,9 @@ public class Article5KUA extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityLAM.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

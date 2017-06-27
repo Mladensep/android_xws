@@ -32,4 +32,9 @@ public class ActivityLAM extends AppCompatActivity {
         Intent intent = new Intent(this, Lampa2.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

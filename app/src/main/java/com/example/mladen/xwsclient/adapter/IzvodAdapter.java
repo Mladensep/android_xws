@@ -49,7 +49,7 @@ public class IzvodAdapter extends BaseAdapter {
         Uplatnica uplatnica = model.get(position);
 
         TextView textView = (TextView) convertView.findViewById(R.id.cena_id);
-        textView.setText("Cena proizvoda: " + uplatnica.getCena() + "  \n  " + " \n " + " Svrha placanja: " + uplatnica.getSvrhaPlacanja());
+        textView.setText("Cena proizvoda: " + uplatnica.getCena() + "  \n  " + " \n " + "Svrha placanja: " + uplatnica.getSvrhaPlacanja());
 
 
         return convertView;

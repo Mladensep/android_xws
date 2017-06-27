@@ -37,4 +37,9 @@ public class ActivityFrizider extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityFrizider3.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

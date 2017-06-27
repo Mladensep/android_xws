@@ -37,4 +37,9 @@ public class ActivityKL extends AppCompatActivity {
         Intent intent = new Intent(this, Klima3.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

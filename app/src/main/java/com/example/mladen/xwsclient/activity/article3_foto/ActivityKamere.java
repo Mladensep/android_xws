@@ -40,4 +40,9 @@ public class ActivityKamere extends AppCompatActivity {
         Intent intent = new Intent(this, Kamera3.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

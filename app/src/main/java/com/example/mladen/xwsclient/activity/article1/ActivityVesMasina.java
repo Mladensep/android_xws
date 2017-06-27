@@ -43,4 +43,9 @@ public class ActivityVesMasina extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityVMasina4.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

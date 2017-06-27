@@ -18,6 +18,7 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import io.realm.Realm;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -33,6 +34,7 @@ public class DobaviIzvod extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_dobavi_izvod);
 
         ButterKnife.bind(this);
@@ -62,5 +64,10 @@ public class DobaviIzvod extends AppCompatActivity {
 
             }
         });
+    }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
     }
 }

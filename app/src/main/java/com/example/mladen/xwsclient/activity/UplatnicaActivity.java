@@ -83,19 +83,12 @@ public class UplatnicaActivity extends AppCompatActivity {
 
         cena = String.valueOf(ukupnaCena);
         //Toast.makeText(this, as, Toast.LENGTH_SHORT).show();
-
+        cena_text.setText(cena + " dinara");
     }
 
     @OnClick(R.id.posalji_uplatnicu)
     public void posalji() {
 
-//        final SendOrderModel model = new SendOrderModel(
-//                Integer.parseInt(edit1.getText().toString()),
-//                Integer.parseInt(edit2.getText().toString()),
-//                edit3.getText().toString()
-//        );
-
-        cena_text.setText(cena);
 
         String temp1 = duznik_nalogodavac.getText().toString();
         uplatnica.setDuznikNalogodavac(temp1);

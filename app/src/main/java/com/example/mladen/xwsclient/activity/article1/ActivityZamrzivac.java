@@ -36,4 +36,9 @@ public class ActivityZamrzivac extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityZamrzivac3.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

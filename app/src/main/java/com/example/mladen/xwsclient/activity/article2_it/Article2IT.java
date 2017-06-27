@@ -37,4 +37,9 @@ public class Article2IT extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityTablet.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

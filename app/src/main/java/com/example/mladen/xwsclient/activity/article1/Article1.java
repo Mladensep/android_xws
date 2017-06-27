@@ -43,4 +43,9 @@ public class Article1 extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityZamrzivac.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }

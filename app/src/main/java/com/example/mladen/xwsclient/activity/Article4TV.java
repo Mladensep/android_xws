@@ -34,4 +34,9 @@ public class Article4TV extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityDO.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.back_icon)
+    public void nazad() {
+        finish();
+    }
 }
